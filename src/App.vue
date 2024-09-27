@@ -6,7 +6,7 @@ import { RouterLink, RouterView } from 'vue-router'
   <header>  
     <header class="flex justify-between border-b border-slate-200 px-10 ">
     <div class="flex items-center gap-4">
-      <img src="" alt="Logo" class="w-11" />
+      <img src="src/assets/logo.svg" alt="Logo" class="w-11" />
       <div>
         <h2 class="font-bold text-xl uppercase">REACT SNEAKERS</h2>
         <p class="text-slate-400">магазин лучших кроссовок</p>
@@ -15,7 +15,7 @@ import { RouterLink, RouterView } from 'vue-router'
 
     <ul class="flex items-center gap-10">
       <li class="flex items-center gap-3 cursor-pointer">
-        <img src="" alt="Cart" />
+        <img src="src/assets/cart-icon.svg" alt="Cart" />
         <b>1205 рубл </b>
       </li>
       <li class="flex items-center gap-3 cursor-pointer">
